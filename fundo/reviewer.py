@@ -281,6 +281,8 @@ def decide(dirn, legacy, reply, code_saw_instructions):
     if reply is None:
         return "unreviewed"
     changed = (reply["group"], reply["is_business"]) != (legacy["group"], legacy["is_business"])
+    if dirn == "debit" and reply["group"] == legacy["group"]:
+        changed = False  # only the business flag of a debit moves: no feature reads it, so nobody needs to see it
     risky = changed and raises_offer(dirn, legacy, reply)
     if code_saw_instructions or reply["description_contains_instructions"]:
         # Text that talks to the reviewer always goes to a person. A correction that makes the business look
@@ -292,7 +294,11 @@ def decide(dirn, legacy, reply, code_saw_instructions):
         return "keep"
     if reply["confidence"] >= (APPLY_MIN_CONF_RISKY if risky else APPLY_MIN_CONF):
         return "apply"
-    return "human_review" if reply["confidence"] >= REVIEW_MIN_CONF else "keep"
+    if reply["confidence"] < REVIEW_MIN_CONF:
+        return "keep"
+    # A doubt that waits for a person: the cautious label is used in the meantime. A change that lowers the
+    # offer is applied provisionally; one that raises it waits.
+    return "human_review" if risky else "apply_and_review"
 
 
 APPLIED = {"apply", "apply_and_review", "code_rule"}

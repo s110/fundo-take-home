@@ -1,7 +1,7 @@
 """Release gate: compare a candidate run B with the incumbent run A. The rules and margins are in EVAL.md.
 
-  python3 gate.py runs/deepseek/dev runs/haiku/dev                                  # stages 1-2 (merge)
-  python3 gate.py runs/deepseek/dev runs/haiku/dev runs/deepseek/holdout runs/haiku/holdout   # + stage 3
+  python3 gate.py runs/haiku/dev runs/sonnet/dev                                       # stages 1-2 (merge)
+  python3 gate.py runs/haiku/dev runs/sonnet/dev runs/haiku/holdout runs/sonnet/holdout  # + stage 3
 
 Exit code 0 = MERGE or PROMOTE, 1 = BLOCK or INCONCLUSIVE. A run directory needs metrics.json and
 patterns.jsonl, which run.py writes.

@@ -1,8 +1,8 @@
 """Run the pipeline: data -> keyword engine -> reviewer -> evaluation -> credit impact -> gate.
 
   python3 run.py --offline                          # every committed run, from the cache; no key, no network
-  python3 run.py --provider deepseek --split dev    # one run; cache misses call the model
-  python3 run.py --provider haiku --split holdout --offline
+  python3 run.py --provider haiku --split dev       # one run; cache misses call the model
+  python3 run.py --provider sonnet --split holdout --offline
 
 Each run writes runs/<provider>/<split>/. --all (the default with --offline and no --provider) also writes
 runs/summary.md, runs/sensitivity.md and one gate report per candidate in runs/gate/.
@@ -17,8 +17,8 @@ import gate
 from fundo import credit, engine, evaluate, generate, reviewer
 from fundo.llm import LLM, PROVIDERS
 
-INCUMBENT = "deepseek"
-CANDIDATES = ["haiku", "sonnet"]
+INCUMBENT = "haiku"
+CANDIDATES = ["sonnet"]
 SPLITS = ["dev", "holdout"]
 
 
@@ -68,8 +68,12 @@ def run_one(provider, split, offline, out_root="runs"):
     labels = lambda key: {tid: {"group": r[key]["group"], "is_business": r[key]["is_business"]}
                           for tid, r in decisions.items()}
     truth_labels = {tid: {"group": g["group"], "is_business": g["is_business"]} for tid, g in gt.items()}
+    # Estimate, not measured: every pattern in the underwriter queue resolved to its true label.
+    resolved = {tid: truth_labels[tid] if r["action"] in evaluate.TO_HUMAN else lab
+                for (tid, r), lab in zip(decisions.items(), labels("final").values())}
     feats = {b["business_id"]: {name: credit.features(p["transactions"], lab, b) for name, lab in
-                                (("legacy", labels("legacy")), ("reviewed", labels("final")), ("truth", truth_labels))}
+                                (("legacy", labels("legacy")), ("reviewed", labels("final")),
+                                 ("queue_resolved", resolved), ("truth", truth_labels))}
              for b, p in dataset}
     used = sorted({c["key"] for c in calls})
     manifest = {  # what a replay needs to rebuild every decision of this run
@@ -104,8 +108,9 @@ def write(out, businesses, decisions, calls, ev, feats, manifest):
 
 
 def offers(feats):
-    over = {w: sum(max(0, f[w]["offer"] - f["truth"]["offer"]) for f in feats.values()) for w in ("legacy", "reviewed")}
-    under = {w: sum(max(0, f["truth"]["offer"] - f[w]["offer"]) for f in feats.values()) for w in ("legacy", "reviewed")}
+    kinds = ("legacy", "reviewed", "queue_resolved")
+    over = {w: sum(max(0, f[w]["offer"] - f["truth"]["offer"]) for f in feats.values()) for w in kinds}
+    under = {w: sum(max(0, f["truth"]["offer"] - f[w]["offer"]) for f in feats.values()) for w in kinds}
     return over, under
 
 
@@ -156,8 +161,9 @@ def report(businesses, ev, feats, manifest):
                      f"{pct(x['revenue_share_of_deposits'])} | {x['nsf_count']} | {x['overdraft_count']} | "
                      f"{pct(x['high_risk_share_of_debits'])} | {money(x['funder_daily_payment'])} | **{money(x['offer'])}** |")
     over, under = offers(feats)
-    L += ["", f"Over-offer against true labels: keyword {money(over['legacy'])}, reviewed {money(over['reviewed'])}. "
-          f"Under-offer: keyword {money(under['legacy'])}, reviewed {money(under['reviewed'])}.", "",
+    L += ["", f"Over-offer against true labels: keyword {money(over['legacy'])}, reviewed {money(over['reviewed'])}, "
+          f"queue resolved {money(over['queue_resolved'])} (*estimate*). Under-offer: keyword {money(under['legacy'])}, "
+          f"reviewed {money(under['reviewed'])}, queue resolved {money(under['queue_resolved'])} (*estimate*).", "",
           "## By scenario", "", "| scenario | n | keyword correct | final correct | flagged | to a person |",
           "|---|---:|---:|---:|---:|---:|"]
     for sc, v in ev["by_scenario"].items():
@@ -243,8 +249,7 @@ def summary(results, verdicts):
         rs = [r for r in cache if r["model"] == m]
         L.append(f"| {m} | {len(rs)} | {sum(r['tokens_in'] for r in rs):,} | {sum(r['tokens_out'] for r in rs):,} | "
                  f"{math.fsum(r['usd'] for r in rs):.4f} |")
-    L += ["", "DeepSeek cost is at the peak list price (an upper bound). Claude cost is the list-price equivalent "
-          "that the Claude Code CLI reports; it was paid through a subscription."]
+    L += ["", "USD is the list-price equivalent that the Claude Code CLI reports. I paid through a subscription."]
     return "\n".join(L) + "\n"
 
 
