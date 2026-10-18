@@ -1,0 +1,37 @@
+[
+ {
+  "bank": "Cascade Federal Bank",
+  "business_id": "h01",
+  "industry": "coffee roaster",
+  "name": "Ridgeline Coffee Roasters",
+  "owner": "Hannah Cole"
+ },
+ {
+  "bank": "Heartland Savings Bank",
+  "business_id": "h02",
+  "industry": "hvac",
+  "name": "Apex Heating & Air",
+  "owner": "Marcus Delgado"
+ },
+ {
+  "bank": "Riverbend Credit Union",
+  "business_id": "h03",
+  "industry": "personal services",
+  "name": "Luxe Nail Studio",
+  "owner": "Kim Tran"
+ },
+ {
+  "bank": "Cascade Federal Bank",
+  "business_id": "h04",
+  "industry": "auto glass",
+  "name": "Summit Auto Glass",
+  "owner": "Brian O'Neal"
+ },
+ {
+  "bank": "Riverbend Credit Union",
+  "business_id": "h05",
+  "industry": "education",
+  "name": "Little Scholars Tutoring",
+  "owner": "Angela Brooks"
+ }
+]

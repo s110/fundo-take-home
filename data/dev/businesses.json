@@ -1,0 +1,72 @@
+[
+ {
+  "bank": "Lone Star National Bank",
+  "business_id": "b01",
+  "industry": "restaurant",
+  "name": "Joe's Tacos LLC",
+  "owner": "Jose Ramirez"
+ },
+ {
+  "bank": "First Midwest Bank",
+  "business_id": "b02",
+  "industry": "home services",
+  "name": "Brightline Plumbing Inc",
+  "owner": "Dan Whitaker"
+ },
+ {
+  "bank": "Metro Credit Union",
+  "business_id": "b03",
+  "industry": "personal services",
+  "name": "Northside Barbers",
+  "owner": "Luis Mendez"
+ },
+ {
+  "bank": "Gulf Coast Bank",
+  "business_id": "b04",
+  "industry": "catering",
+  "name": "Coastal Catering Co",
+  "owner": "Grace Okafor"
+ },
+ {
+  "bank": "Harbor Community Bank",
+  "business_id": "b05",
+  "industry": "auto repair",
+  "name": "Prairie Auto Repair",
+  "owner": "Hank Sorensen"
+ },
+ {
+  "bank": "Lone Star National Bank",
+  "business_id": "b06",
+  "industry": "trucking",
+  "name": "Metro Trucking LLC",
+  "owner": "Andre Baptiste"
+ },
+ {
+  "bank": "Pacific Union Bank",
+  "business_id": "b07",
+  "industry": "retail",
+  "name": "Bella Boutique",
+  "owner": "Sofia Russo"
+ },
+ {
+  "bank": "First Midwest Bank",
+  "business_id": "b08",
+  "industry": "dental",
+  "name": "Summit Dental Group",
+  "owner": "Priya Shah"
+ },
+ {
+  "bank": "Pacific Union Bank",
+  "business_id": "b09",
+  "industry": "landscaping",
+  "name": "Green Leaf Landscaping",
+  "owner": "Mike Callahan"
+ },
+ {
+  "bank": "Gulf Coast Bank",
+  "business_id": "b10",
+  "industry": "bakery",
+  "name": "Fresh Start Bakery",
+  "owner": "Maria Santos"
+ }
+]

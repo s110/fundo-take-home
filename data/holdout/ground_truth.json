@@ -1,0 +1,7060 @@
+{
+ "txn_h01_0001": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0002": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0003": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0004": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0005": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0006": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0007": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0008": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0009": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0010": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0011": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0012": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0013": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0014": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0015": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0016": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0017": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0018": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0019": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0020": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0021": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0022": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0023": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0024": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0025": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0026": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0027": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0028": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0029": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0030": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0031": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0032": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0033": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0034": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0035": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0036": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0037": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0038": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0039": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0040": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0041": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0042": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0043": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0044": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0045": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0046": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0047": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0048": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0049": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0050": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0051": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0052": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0053": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0054": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0055": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0056": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0057": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0058": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0059": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0060": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0061": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0062": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0063": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0064": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_says_transfer",
+  "suspicious": true
+ },
+ "txn_h01_0065": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0066": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0067": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0068": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0069": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0070": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0071": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0072": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "customer_ach",
+  "suspicious": false
+ },
+ "txn_h01_0073": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_funding",
+  "suspicious": false
+ },
+ "txn_h01_0074": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0075": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0076": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0077": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0078": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0079": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0080": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0081": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0082": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0083": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0084": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0085": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0086": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0087": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0088": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0089": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0090": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0091": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0092": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0093": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0094": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0095": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0096": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0097": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0098": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0099": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0100": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0101": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0102": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0103": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0104": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0105": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0106": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0107": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0108": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0109": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0110": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0111": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0112": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0113": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0114": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0115": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0116": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0117": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0118": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0119": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0120": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0121": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0122": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0123": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_loan_repayment",
+  "suspicious": false
+ },
+ "txn_h01_0124": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "nsf_fee_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h01_0125": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "nsf_fee_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h01_0126": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "nsf_fee_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h01_0127": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": "503-555-0147",
+  "scenario": "customer_memo_with_phone",
+  "suspicious": false
+ },
+ "txn_h01_0128": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment",
+  "suspicious": true
+ },
+ "txn_h01_0129": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment",
+  "suspicious": true
+ },
+ "txn_h01_0130": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment",
+  "suspicious": true
+ },
+ "txn_h01_0131": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0132": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0133": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0134": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0135": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0136": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0137": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0138": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0139": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0140": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0141": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0142": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0143": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0144": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0145": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0146": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0147": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0148": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0149": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0150": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0151": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0152": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0153": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0154": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0155": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0156": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h01_0157": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h01_0158": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h01_0159": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0160": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0161": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0162": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0163": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0164": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0165": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0166": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0167": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0168": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0169": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0170": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0171": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0172": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0173": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0174": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0175": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0176": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0177": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0178": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0179": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0180": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0181": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0182": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0183": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0184": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0185": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0186": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0187": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0188": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0189": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0190": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0191": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0192": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0193": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0194": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0195": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0196": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0197": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0198": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0199": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0200": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h01_0201": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h01_0202": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h01_0203": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h02_0001": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0002": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0003": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0004": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0005": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0006": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0007": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0008": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0009": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0010": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0011": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0012": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0013": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0014": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0015": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0016": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0017": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0018": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0019": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0020": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0021": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0022": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0023": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0024": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0025": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0026": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0027": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0028": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0029": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0030": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0031": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0032": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0033": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0034": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0035": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0036": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0037": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0038": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0039": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0040": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h02_0041": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "large_customer_payment",
+  "suspicious": true
+ },
+ "txn_h02_0042": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "large_customer_payment",
+  "suspicious": true
+ },
+ "txn_h02_0043": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_funding_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0044": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0045": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0046": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0047": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0048": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0049": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0050": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0051": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0052": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0053": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0054": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0055": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0056": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0057": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0058": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0059": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0060": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0061": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0062": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0063": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0064": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0065": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0066": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0067": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0068": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0069": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0070": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0071": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0072": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0073": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0074": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0075": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0076": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0077": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0078": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0079": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0080": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0081": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0082": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0083": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0084": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0085": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0086": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0087": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0088": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0089": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0090": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0091": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0092": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0093": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0094": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0095": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0096": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0097": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0098": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0099": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0100": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0101": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0102": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0103": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0104": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0105": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0106": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0107": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0108": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0109": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0110": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0111": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0112": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0113": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0114": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0115": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0116": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0117": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0118": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0119": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0120": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0121": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0122": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h02_0123": {
+  "group": "active_advance",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "advance_repayment",
+  "suspicious": false
+ },
+ "txn_h02_0124": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "employee_garnishment_remittance",
+  "suspicious": false
+ },
+ "txn_h02_0125": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "employee_garnishment_remittance",
+  "suspicious": false
+ },
+ "txn_h02_0126": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "employee_garnishment_remittance",
+  "suspicious": false
+ },
+ "txn_h02_0127": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "marketing_vendor_sounds_like_lender",
+  "suspicious": true
+ },
+ "txn_h02_0128": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "marketing_vendor_sounds_like_lender",
+  "suspicious": true
+ },
+ "txn_h02_0129": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "marketing_vendor_sounds_like_lender",
+  "suspicious": true
+ },
+ "txn_h02_0130": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0131": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0132": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0133": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0134": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0135": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0136": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0137": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0138": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0139": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0140": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0141": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0142": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0143": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0144": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0145": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0146": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0147": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0148": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0149": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0150": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0151": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0152": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0153": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0154": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0155": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h02_0156": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h02_0157": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h02_0158": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0159": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0160": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0161": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0162": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0163": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0164": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0165": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0166": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0167": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0168": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0169": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0170": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0171": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0172": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0173": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0174": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0175": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0176": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0177": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0178": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0179": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0180": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0181": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0182": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0183": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0184": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0185": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0186": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0187": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0188": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0189": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0190": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0191": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0192": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0193": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0194": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0195": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0196": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0197": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0198": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0199": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0200": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0201": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0202": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0203": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0204": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0205": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0206": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0207": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h02_0208": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h02_0209": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h02_0210": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h03_0001": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0002": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0003": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0004": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0005": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0006": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0007": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0008": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0009": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0010": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0011": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0012": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0013": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0014": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0015": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0016": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0017": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0018": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0019": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0020": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0021": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0022": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0023": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0024": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0025": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0026": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0027": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0028": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0029": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0030": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0031": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0032": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0033": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0034": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0035": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0036": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0037": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0038": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0039": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0040": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0041": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0042": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0043": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0044": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0045": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0046": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0047": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0048": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0049": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0050": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0051": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0052": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0053": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0054": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0055": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0056": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0057": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0058": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0059": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0060": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0061": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0062": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0063": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0064": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0065": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0066": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0067": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0068": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0069": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0070": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0071": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0072": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0073": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0074": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0075": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0076": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0077": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h03_0078": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0079": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0080": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0081": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0082": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0083": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0084": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0085": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0086": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0087": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0088": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0089": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0090": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0091": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "p2p_customer_marked_personal",
+  "suspicious": false
+ },
+ "txn_h03_0092": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "p2p_family",
+  "suspicious": false
+ },
+ "txn_h03_0093": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "p2p_family",
+  "suspicious": false
+ },
+ "txn_h03_0094": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "p2p_family",
+  "suspicious": false
+ },
+ "txn_h03_0095": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "p2p_family",
+  "suspicious": false
+ },
+ "txn_h03_0096": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "p2p_family",
+  "suspicious": false
+ },
+ "txn_h03_0097": {
+  "group": "not_avg_revenue",
+  "injection": {
+   "pushes": "revenue"
+  },
+  "is_business": false,
+  "pii": null,
+  "scenario": "injection_p2p",
+  "suspicious": false
+ },
+ "txn_h03_0098": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "returned_payment_no_fee",
+  "suspicious": false
+ },
+ "txn_h03_0099": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "returned_payment_no_fee",
+  "suspicious": false
+ },
+ "txn_h03_0100": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "returned_payment_no_fee",
+  "suspicious": false
+ },
+ "txn_h03_0101": {
+  "group": "nsf",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "returned_payment_no_fee",
+  "suspicious": false
+ },
+ "txn_h03_0102": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0103": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0104": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0105": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0106": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0107": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0108": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0109": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0110": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0111": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0112": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0113": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0114": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0115": {
+  "group": "hr_gambling",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "gambling_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h03_0116": {
+  "group": "hr_gambling",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "gambling_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h03_0117": {
+  "group": "hr_gambling",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "gambling_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h03_0118": {
+  "group": "hr_gambling",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "gambling_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h03_0119": {
+  "group": "hr_gambling",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "gambling_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h03_0120": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0121": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0122": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0123": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0124": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0125": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0126": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0127": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0128": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0129": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0130": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0131": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0132": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0133": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0134": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0135": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0136": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0137": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0138": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0139": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0140": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0141": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0142": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0143": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0144": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0145": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h03_0146": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h03_0147": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h03_0148": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0149": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0150": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0151": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0152": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0153": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0154": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0155": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0156": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0157": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0158": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0159": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0160": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0161": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0162": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0163": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0164": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0165": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0166": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0167": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0168": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0169": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0170": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0171": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0172": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0173": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0174": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0175": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0176": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0177": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0178": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0179": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0180": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0181": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0182": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0183": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0184": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0185": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0186": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0187": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0188": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0189": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0190": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0191": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0192": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0193": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0194": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h03_0195": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h03_0196": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h03_0197": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h04_0001": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0002": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0003": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0004": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0005": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0006": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0007": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0008": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0009": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0010": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0011": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0012": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0013": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0014": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0015": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0016": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0017": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0018": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0019": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0020": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0021": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0022": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0023": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0024": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0025": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0026": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0027": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0028": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0029": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0030": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0031": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0032": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0033": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0034": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0035": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0036": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0037": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0038": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0039": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0040": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0041": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0042": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0043": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0044": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0045": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0046": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0047": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0048": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0049": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0050": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0051": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0052": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0053": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0054": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0055": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0056": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0057": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0058": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0059": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0060": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0061": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0062": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0063": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0064": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0065": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0066": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0067": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0068": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0069": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0070": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0071": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0072": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0073": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0074": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0075": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0076": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0077": {
+  "group": "revenue_verification",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout",
+  "suspicious": false
+ },
+ "txn_h04_0078": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0079": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0080": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0081": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0082": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0083": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0084": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0085": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0086": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0087": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0088": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0089": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0090": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0091": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0092": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "insurance_payment",
+  "suspicious": false
+ },
+ "txn_h04_0093": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0094": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0095": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0096": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0097": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0098": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0099": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0100": {
+  "group": "internal_transfer",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "own_transfer_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0101": {
+  "group": "hr_garnishment",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "tax_levy",
+  "suspicious": false
+ },
+ "txn_h04_0102": {
+  "group": "hr_garnishment",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "tax_levy",
+  "suspicious": false
+ },
+ "txn_h04_0103": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "tax_payment",
+  "suspicious": true
+ },
+ "txn_h04_0104": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "tax_payment",
+  "suspicious": true
+ },
+ "txn_h04_0105": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "tax_payment",
+  "suspicious": true
+ },
+ "txn_h04_0106": {
+  "group": "hr_other",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "crypto_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0107": {
+  "group": "hr_other",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "crypto_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0108": {
+  "group": "hr_other",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "crypto_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0109": {
+  "group": "hr_other",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "crypto_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h04_0110": {
+  "group": "overdraft",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "overdraft_fee",
+  "suspicious": false
+ },
+ "txn_h04_0111": {
+  "group": "overdraft",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "overdraft_fee",
+  "suspicious": false
+ },
+ "txn_h04_0112": {
+  "group": "overdraft",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "overdraft_fee",
+  "suspicious": false
+ },
+ "txn_h04_0113": {
+  "group": "overdraft",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "overdraft_fee",
+  "suspicious": false
+ },
+ "txn_h04_0114": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0115": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0116": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0117": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0118": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0119": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0120": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0121": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0122": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0123": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0124": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0125": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0126": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0127": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0128": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0129": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0130": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0131": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0132": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0133": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0134": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0135": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0136": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0137": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0138": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0139": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h04_0140": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h04_0141": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h04_0142": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0143": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0144": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0145": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0146": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0147": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0148": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0149": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0150": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0151": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0152": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0153": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0154": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0155": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0156": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0157": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0158": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0159": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0160": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0161": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0162": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0163": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0164": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0165": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0166": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0167": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0168": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0169": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0170": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0171": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0172": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0173": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0174": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0175": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0176": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0177": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0178": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0179": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0180": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0181": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0182": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0183": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0184": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0185": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0186": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0187": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0188": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0189": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h04_0190": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h04_0191": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h04_0192": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h05_0001": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0002": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0003": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0004": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0005": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0006": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0007": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0008": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0009": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0010": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0011": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0012": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0013": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0014": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0015": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0016": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0017": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0018": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0019": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0020": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0021": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0022": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0023": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0024": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0025": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0026": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0027": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0028": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0029": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0030": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0031": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "processor_payout_unknown_name",
+  "suspicious": false
+ },
+ "txn_h05_0032": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0033": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0034": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0035": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0036": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0037": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0038": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0039": {
+  "group": "auto_deposit",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "check_deposit",
+  "suspicious": false
+ },
+ "txn_h05_0040": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "owner_contribution",
+  "suspicious": false
+ },
+ "txn_h05_0041": {
+  "group": "hr_bankruptcy",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "bankruptcy_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h05_0042": {
+  "group": "hr_debt_settlement",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "debt_settlement_missed_keyword",
+  "suspicious": false
+ },
+ "txn_h05_0043": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "term_loan_repayment",
+  "suspicious": true
+ },
+ "txn_h05_0044": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "term_loan_repayment",
+  "suspicious": true
+ },
+ "txn_h05_0045": {
+  "group": "not_avg_revenue",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "loan_inside_small_pattern",
+  "suspicious": false
+ },
+ "txn_h05_0046": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0047": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0048": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0049": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0050": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0051": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0052": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0053": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0054": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0055": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0056": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0057": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0058": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h05_0059": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "card_payment_capital",
+  "suspicious": true
+ },
+ "txn_h05_0060": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0061": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0062": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0063": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0064": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0065": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0066": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0067": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0068": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0069": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0070": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0071": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0072": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0073": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0074": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0075": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0076": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0077": {
+  "group": "none",
+  "injection": null,
+  "is_business": true,
+  "pii": null,
+  "scenario": "routine",
+  "suspicious": false
+ },
+ "txn_h05_0078": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h05_0079": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ },
+ "txn_h05_0080": {
+  "group": "none",
+  "injection": null,
+  "is_business": false,
+  "pii": null,
+  "scenario": "personal_spend",
+  "suspicious": false
+ }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# private notes, not part of the submission yet
+.private/
