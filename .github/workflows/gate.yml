@@ -1,0 +1,24 @@
+# Every push: the committed outputs must regenerate byte for byte from the cache, with no key.
+# Every pull request: the release gate (EVAL.md) compares the PR's incumbent run with the one on the base branch.
+name: gate
+on: [push, pull_request]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reproduce every committed output from the cache
+        run: |
+          python3 run.py --offline
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+      - name: Release gate against the base branch
+        if: github.event_name == 'pull_request'
+        run: |
+          git worktree add ../base "origin/${{ github.base_ref }}"
+          python3 gate.py ../base/runs/haiku/dev runs/haiku/dev
