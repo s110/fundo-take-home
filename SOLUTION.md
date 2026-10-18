@@ -35,7 +35,7 @@ retry, else keep the keyword label → [code] policy → [code] revenue = f(dire
 ```
 
 **The model only proposes a group and a business flag, one pattern at a time.** Every pattern goes to the
-model (188 calls for 1,854 dev transactions). There is no keyword prefilter, because a prefilter is a
+model except own-account transfers that code confirms (188 calls for 192 dev patterns, 1,854 transactions). There is no keyword prefilter, because a prefilter is a
 second keyword list with the same blind spots. The rest is code, where it is exact and auditable:
 
 - **Revenue is never a model output**, nor are amounts, dates or features. Transfer pairing is a join on
@@ -197,9 +197,14 @@ next application. Fine-tuning comes last, if ever.
   change used its results. In production the holdout belongs to people who do not write prompts.
 - **Risk model, balances, pending transactions, pagination**: none changes the reviewer question.
 - **Unit tests**: the full run against ground truth is the end-to-end test; CI regenerates its committed
-  output byte for byte (checked on Python 3.9 and 3.14).
+  output byte for byte (CI on Python 3.12; I also checked 3.9 and 3.14).
 
-**Known weaknesses.** One answer covers a whole pattern. The tripwire regex is easy to evade, so the defence
-that matters is structural (the model cannot set revenue; nothing in the business's favour applies on
-flagged text). Holidays count as business days. Synthetic text is cleaner than real bank text: these numbers
+**Known weaknesses.** One answer covers a whole pattern. The tripwire regex is easy to evade, and I wrote
+both it and the four test injections. If neither the tripwire nor the model notices an injection and the
+model accepts it at 0.90 or more, a change in the business's favour does apply; what limits it then is that
+the model cannot set revenue, one call sees one pattern, and the shadow gate measures offer-raising
+precision at 99%. H4 reuses the reviewer's `raises_offer`, so it is not an independent check. The gate pairs
+runs by pattern, so it cannot compare a keyword or data change (the patterns change); that needs a
+transaction-level comparison I did not build. The 120 s per-application fallback in EVAL.md is production
+design; the code has only a 180 s timeout per call. Holidays count as business days. Synthetic text is cleaner than real bank text: these numbers
 test the mechanism, and real quality needs a labelled sample of real applications.
