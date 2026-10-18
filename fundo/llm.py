@@ -19,7 +19,8 @@ import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
-CACHE_PATH = Path("cache/llm_responses.jsonl")
+CACHE_PATH = Path(__file__).resolve().parent.parent / "cache" / "llm_responses.jsonl"
+_CACHES = {}  # path -> {key: record}; each cache file is read once per process
 PROVIDERS = {"haiku": {"model": "claude-haiku-5-5"}, "sonnet": {"model": "claude-sonnet-5-5"}}
 
 
@@ -28,15 +29,16 @@ class ProviderError(Exception):
 
 
 class LLM:
-    def __init__(self, provider, offline=False, timeout=180):
+    def __init__(self, provider, offline=False, timeout=180, cache_path=CACHE_PATH):
+        """cache_path: review.py passes its own file, so replies about a user's file stay out of the committed cache."""
         self.provider, self.offline, self.timeout = provider, offline, timeout
         self.model = PROVIDERS[provider]["model"]
         self.lock = threading.Lock()
-        self.cache = {}
-        if CACHE_PATH.exists():
-            for line in CACHE_PATH.read_text().splitlines():
-                rec = json.loads(line)
-                self.cache[rec["key"]] = rec
+        self.cache_path = Path(cache_path)
+        if self.cache_path not in _CACHES:
+            lines = self.cache_path.read_text().splitlines() if self.cache_path.exists() else []
+            _CACHES[self.cache_path] = {rec["key"]: rec for rec in map(json.loads, lines)}
+        self.cache = _CACHES[self.cache_path]
 
     def key(self, messages, schema):
         blob = json.dumps({"provider": self.provider, "model": self.model, "schema": schema, "messages": messages},
@@ -53,15 +55,16 @@ class LLM:
             raise ProviderError("offline and not in the cache")
         try:
             content, served, tin, tout, usd, seconds = self._claude_cli(messages, schema)
-        except (OSError, subprocess.SubprocessError, KeyError, ValueError) as e:  # OSError: no CLI, timeouts
+        except (OSError, subprocess.SubprocessError, KeyError, ValueError, TypeError, AttributeError) as e:
+            # OSError: no CLI or a timeout; the others: a reply whose JSON does not have the expected shape
             raise ProviderError(f"{type(e).__name__}: {e}") from e
         rec = {"key": k, "provider": self.provider, "model": self.model, "served_model": served,
                "content": content, "tokens_in": tin, "tokens_out": tout, "usd": round(usd, 6),
                "latency_s": round(seconds, 3), "created": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
         with self.lock:
             self.cache[k] = rec
-            CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-            with CACHE_PATH.open("a") as f:
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            with self.cache_path.open("a") as f:
                 f.write(json.dumps(rec, sort_keys=True) + "\n")
         return rec
 
@@ -84,7 +87,8 @@ class LLM:
             raise ProviderError(f"claude error: {str(d.get('result'))[:200]}")
         out = d.get("structured_output")
         content = json.dumps(out, sort_keys=True) if out is not None else d["result"]
-        u = d.get("usage", {})
-        tin = u.get("input_tokens", 0) + u.get("cache_creation_input_tokens", 0) + u.get("cache_read_input_tokens", 0)
-        served = ",".join(sorted(d.get("modelUsage", {}))) or self.model
-        return content, served, tin, u.get("output_tokens", 0), d.get("total_cost_usd", 0.0), d["duration_api_ms"] / 1000
+        u = d.get("usage") or {}
+        tin = sum(u.get(k) or 0 for k in ("input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"))
+        served = ",".join(sorted(d.get("modelUsage") or {})) or self.model
+        return (content, served, tin, u.get("output_tokens") or 0, d.get("total_cost_usd") or 0.0,
+                d["duration_api_ms"] / 1000)

@@ -17,8 +17,10 @@ jobs:
           python3 run.py --offline
           git status --porcelain
           test -z "$(git status --porcelain)"
+      # The base branch's gate.py and metric code judge the PR's outputs, so a PR cannot loosen its own rules.
+      # A PR that edits gate.py, fundo/evaluate.py, EVAL.md or data/ still needs a human approval.
       - name: Release gate against the base branch
         if: github.event_name == 'pull_request'
         run: |
           git worktree add ../base "origin/${{ github.base_ref }}"
-          python3 gate.py ../base/runs/haiku/dev runs/haiku/dev
+          cd ../base && python3 gate.py runs/haiku/dev "$GITHUB_WORKSPACE/runs/haiku/dev"

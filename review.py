@@ -4,7 +4,8 @@
   python3 review.py their_file.json --provider sonnet --offline
 
 Prints every pattern the reviewer changed or sent to a person, and the features and offer before and after.
-Writes <file>.review.jsonl next to the input.
+Writes <file>.review.jsonl next to the input, and keeps the model replies in <file>.cache.jsonl (not in
+the committed cache, so a private file never reaches the repository).
 """
 import argparse
 import json
@@ -60,14 +61,19 @@ def main():
     if biz["history_days"] < 85:
         print(f"WARNING: {biz['history_days']} days of history; monthly figures use the observed days")
     legacy = engine.label_all(txns)
-    decisions, _ = reviewer.review([(biz, plaid)], legacy, LLM(args.provider, offline=args.offline))
+    llm = LLM(args.provider, offline=args.offline, cache_path=Path(args.plaid_json).with_suffix(".cache.jsonl"))
+    decisions, _ = reviewer.review([(biz, plaid)], legacy, llm)
 
     out = Path(args.plaid_json).with_suffix(".review.jsonl")
     out.write_text("".join(json.dumps(decisions[t], sort_keys=True) + "\n" for t in sorted(decisions)))
-    shown = {}
+    shown, unreviewed = {}, set()
     for r in decisions.values():
-        if r["action"] not in ("keep", "not sent"):
+        if r["action"] == "unreviewed":
+            unreviewed.add(r["pattern_id"])
+        elif r["action"] != "keep":
             shown.setdefault(r["pattern_id"], []).append(r)
+    if unreviewed:
+        print(f"WARNING: {len(unreviewed)} patterns unreviewed (no model reply); they keep the keyword label")
     for pid, rs in sorted(shown.items()):
         r, s = rs[0], rs[0]["suggestion"]
         print(f"\n{r['action']:<16} {len(rs):>3} txns  {r['legacy']['group']} -> {s['group']} "

@@ -185,7 +185,10 @@ def plan(biz, plaid, legacy):
         for part, suffix in (([t for t in members if t not in big], ""), (big, " [large amount]")):
             if not part:
                 continue
-            code_rule = all(t["transaction_id"] in transfers for t in part)
+            # The transfer rule never overrides a risk label or text that addresses the reviewer: the model and
+            # the policy see those, so a coincidental same-amount pair cannot erase a funder payment or an NSF.
+            code_rule = (all(t["transaction_id"] in transfers for t in part) and group not in RISK_GROUPS
+                         and not any(instructions_in(t["original_description"]) for t in part))
             rep = max(part, key=lambda t: abs(t["amount"])) if suffix else part[0]
             patterns.append({"pattern_id": f"{biz['business_id']}|{dirn}|{tmpl}{suffix}|{group}|{business}",
                              "business_id": biz["business_id"], "direction": dirn, "members": part, "rep": rep,
@@ -236,12 +239,12 @@ def validate(raw, dirn, legacy):
         return None, "confidence must be a number from 0 to 1"
     if not isinstance(r["reason"], str) or not r["reason"].strip():
         return None, "reason must be a non-empty string"
-    if dirn not in DIRECTIONS[r["group"]]:
-        return None, f"group {r['group']} is not possible on a {dirn}"
     r = {k: r[k] for k in SCHEMA["required"]}
-    r["reason"] = " ".join(r["reason"].split())[:200]
     if r["verdict"] == "agree":  # an "agree" never changes a label, whatever its other fields say
         r["group"], r["is_business"] = legacy["group"], legacy["is_business"]
+    if dirn not in DIRECTIONS[r["group"]]:
+        return None, f"group {r['group']} is not possible on a {dirn}"
+    r["reason"] = " ".join(r["reason"].split())[:200]
     return r, None
 
 
@@ -271,9 +274,11 @@ def ask(llm, messages, dirn, legacy):
 # 6-7. Decision policy
 # ---------------------------------------------------------------------------
 def raises_offer(dirn, old, new):
-    """True when the change makes the business look better: more revenue, or one risk label fewer."""
+    """True when the change can make the business look better: more revenue, or a risk label moved anywhere.
+    A swap between two risk groups counts too: active_advance -> hr_other drops funder payments, and
+    nsf -> overdraft lowers the NSF count, so both can raise the offer."""
     gained_revenue = is_revenue(dirn, new["group"], new["is_business"]) and not is_revenue(dirn, old["group"], old["is_business"])
-    return gained_revenue or (old["group"] in RISK_GROUPS and new["group"] not in RISK_GROUPS)
+    return gained_revenue or (old["group"] in RISK_GROUPS and new["group"] != old["group"])
 
 
 def decide(dirn, legacy, reply, code_saw_instructions):
