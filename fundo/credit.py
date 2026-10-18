@@ -2,6 +2,7 @@
 import random
 from datetime import date, timedelta
 
+from .evaluate import p95
 from .taxonomy import HIGH_RISK, NONE, direction, is_revenue
 
 
@@ -41,7 +42,7 @@ def features(txns, labels, biz, months_divisor=None):
         od += g == "overdraft"
     months = months_divisor or biz["history_days"] / 30.0
     amr = rev / months
-    daily_funder = funder / business_days(biz["start"], biz["end"])
+    daily_funder = funder / max(1, business_days(biz["start"], biz["end"]))  # a weekend-only file has 0 weekdays
     return {"avg_monthly_revenue": amr, "revenue_share_of_deposits": rev / dep if dep else 0.0,
             "nsf_count": nsf, "overdraft_count": od, "high_risk_share_of_debits": hr / debits if debits else 0.0,
             "funder_daily_payment": daily_funder, "offer": offer(amr, daily_funder, nsf)}
@@ -105,7 +106,7 @@ def sensitivity(dataset, truth_labels, rates=(0.02, 0.05, 0.10), trials=200, see
                     flips += (f["offer"] > 0) != (f0["offer"] > 0)
             n = len(d_offer)
             rows.append({"kind": kind, "rate": rate, "mean_offer_change": sum(d_offer) / n,
-                         "mean_abs_offer_change": sum(d_abs) / n, "p95_abs_offer_change": sorted(d_abs)[int(0.95 * n)],
+                         "mean_abs_offer_change": sum(d_abs) / n, "p95_abs_offer_change": p95(d_abs),
                          "offer_change_per_mislabel": sum(d_offer) / n_flipped if n_flipped else 0.0,
                          "mean_revenue_change": sum(d_rev) / n,
                          "mean_nsf_change": sum(d_nsf) / n, "mean_high_risk_share_change": sum(d_hr) / n,

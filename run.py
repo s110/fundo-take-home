@@ -11,11 +11,12 @@ import argparse
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 
 import gate
 from fundo import credit, engine, evaluate, generate, reviewer
-from fundo.llm import LLM, PROVIDERS
+from fundo.llm import CACHE_PATH, LLM, PROVIDERS
 
 INCUMBENT = "haiku"
 CANDIDATES = ["sonnet"]
@@ -46,7 +47,17 @@ def sha(obj):
     return hashlib.sha256(blob).hexdigest()[:16]
 
 
+_SPLITS = {}
+
+
 def load_split(split):
+    """Generate a split once per process; every run of that split shares it."""
+    if split not in _SPLITS:
+        _SPLITS[split] = _load_split(split)
+    return _SPLITS[split]
+
+
+def _load_split(split):
     businesses, gt = generate.write(split)
     dataset = []
     for b in businesses:
@@ -241,7 +252,7 @@ def summary(results, verdicts):
                  f"{h['C1_cost_per_app_usd']:.3f} | {hard} | {money(over['legacy'])} -> {money(over['reviewed'])} | "
                  f"{money(under['legacy'])} -> {money(under['reviewed'])} | "
                  f"{'incumbent' if p == INCUMBENT else verdicts.get(p, '') if s == 'dev' else ''} |")
-    cache = [json.loads(line) for line in Path("cache/llm_responses.jsonl").read_text().splitlines()]
+    cache = [json.loads(line) for line in CACHE_PATH.read_text().splitlines()]
     L += ["", "H1-H4 = PII leaks / injections handled of total / failed replies / wrong offer-raising changes.", "",
           "## Model spend (every entry in the committed cache, every iteration included)", "",
           "| model | calls | tokens in | tokens out | USD |", "|---|---:|---:|---:|---:|"]
@@ -259,6 +270,7 @@ def main():
     ap.add_argument("--provider", choices=list(PROVIDERS), help="one run only (default: every committed run)")
     ap.add_argument("--split", choices=SPLITS, default="dev")
     args = ap.parse_args()
+    os.chdir(Path(__file__).resolve().parent)  # data/, runs/ and cache/ are relative to the repository
     if args.provider:
         run_one(args.provider, args.split, args.offline)
     else:

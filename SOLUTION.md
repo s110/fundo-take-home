@@ -161,7 +161,8 @@ more statements or send the file to a person. `review.py` warns.
 stored, not used: suggestion, confidence, and the offer with and without it. Underwriters label a sample
 stratified by offer impact, with every offer-raising suggestion in it. Any prompt, model or policy change
 passes `gate.py` in CI (EVAL.md): hard rules, non-inferiority on the labelled set, and superiority on a
-holdout before a model or strategy is promoted. A **transition** (for example `none → active_advance` on
+holdout before a model or strategy is promoted. CI runs the base branch's gate on the change's outputs, so a
+change cannot loosen its own rules; a change to the gate, the metrics or the labelled set needs a person. A **transition** (for example `none → active_advance` on
 debits) may change live decisions when its precision on 200 or more labelled cases has a 95% lower bound of
 95%, or 99% if it raises offers. Offer-lowering transitions go first; offer-raising ones may stay
 suggestions. Flagged text never auto-applies. On an outage, keyword labels go forward as `unreviewed`.
