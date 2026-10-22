@@ -13,6 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from fundo.evaluate import headline
+from fundo.llm import display
 
 RESAMPLES, SEED = 2000, 7
 # metric: (which side is worse, margin). "up" = a larger B - A is worse.
@@ -114,7 +115,7 @@ def gate(a_dev, b_dev, a_hold=None, b_hold=None):
     ma, ra = load(a_dev)
     mb, rb = load(b_dev)
     L = [f"# Gate: `{b_dev}` against `{a_dev}`", "",
-         f"Incumbent A: `{ma['run']['model']}`. Candidate B: `{mb['run']['model']}`.", "", "## 1. Hard rules (B, dev)", "",
+         f"Incumbent A: `{display(ma['run']['provider'])}`. Candidate B: `{display(mb['run']['provider'])}`.", "", "## 1. Hard rules (B, dev)", "",
          "| rule | value | result |", "|---|---|---|"]
     checks, ok = hard_rules(mb)
     L += [f"| {name} | {val} | {'pass' if good else 'FAIL'} |" for name, good, val in checks]
