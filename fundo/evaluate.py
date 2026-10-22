@@ -1,4 +1,5 @@
 """Score a run against ground truth. The metric ids (Q1, H1, ...) are the ones defined in EVAL.md."""
+import hashlib
 from collections import Counter, defaultdict
 
 from .reviewer import APPLIED, raises_offer
@@ -47,6 +48,9 @@ def pattern_rows(decisions, calls, gt, days):
         risk = [r for r in rs if truth(r, gt)["group"] in RISK_GROUPS]
         rows.append({
             "pattern_id": pid, "business_id": r0["business_id"], "n": len(rs), "action": r0["action"],
+            # The gate pairs runs on this, not on pattern_id: a text change (a template, a test email) renames a
+            # pattern but keeps its transactions, and that run is still comparable.
+            "txn_set": hashlib.sha256(",".join(sorted(r["transaction_id"] for r in rs)).encode()).hexdigest()[:16],
             "rev_true": sum(amt(r) for r in rs if truth(r, gt)["is_revenue"]),
             "rev_wrong_legacy": sum(amt(r) for r in rs if r["legacy"]["is_revenue"] != truth(r, gt)["is_revenue"]),
             "rev_wrong_final": sum(amt(r) for r in rs if r["final"]["is_revenue"] != truth(r, gt)["is_revenue"]),
