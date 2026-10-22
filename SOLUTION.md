@@ -120,7 +120,8 @@ become keyword fixes, labelled cases for the gate, and per-transition precision.
 - **Weaknesses:**
   - The tripwire regex is easy to evade, and I wrote the test injections.
   - One answer covers a whole pattern.
-  - The gate reads one reply on dev and cannot compare keyword or data changes.
+  - The gate reads one reply on dev. It pairs runs by the transactions in each pattern, so it cannot compare
+    a keyword or data change that groups transactions differently; that change needs a person.
   - Synthetic text is cleaner than real bank text. These numbers test the mechanism, not real quality.
 
 ## 8. AI tools used

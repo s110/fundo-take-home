@@ -42,13 +42,15 @@ def hard_rules(metrics):
 
 def bootstrap(rows_a, rows_b):
     """Paired, stratified by business. Returns {metric: (estimate, low 2.5%, high 97.5%)} for B - A."""
-    a = {r["pattern_id"]: r for r in rows_a}
-    b = {r["pattern_id"]: r for r in rows_b}
+    key = lambda r: r.get("txn_set") or r["pattern_id"]  # runs from before txn_set pair on the pattern id
+    a = {key(r): r for r in rows_a}
+    b = {key(r): r for r in rows_b}
     if a.keys() != b.keys():
-        raise SystemExit("the runs are not paired: their patterns differ (other data or another keyword engine)")
+        raise SystemExit(f"the runs are not paired: {len(a.keys() ^ b.keys())} patterns group other transactions "
+                         "(a keyword or data change). The gate cannot compare them; a person must review the change.")
     by_biz = defaultdict(list)
-    for pid in sorted(a):
-        by_biz[a[pid]["business_id"]].append(pid)
+    for k in sorted(a, key=lambda k: a[k]["pattern_id"]):  # A's pattern order, so the resamples do not depend on the key
+        by_biz[a[k]["business_id"]].append(k)
     n_apps = len(by_biz)
     ha, hb = headline(rows_a, n_apps), headline(rows_b, n_apps)
     est = {k: hb[k] - ha[k] for k in NON_INFERIORITY}
