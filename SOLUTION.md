@@ -87,6 +87,29 @@ Keyword engine Q1: 33.2 dev, 30.3 holdout. Q2 risk-label recall is 99.1 pp or mo
 3. **On the holdout the four are equal on quality.** Q1 is 8.9 to 9.0 pp in all 12 runs, and over-offer is
    $14,727 in every one: the same $18k loan (section 4) for every model.
 
+**Why Q1 jumps by points.** Q1 counts dollars of monthly revenue, not labels, and the splits are small
+($337k of true monthly revenue in dev, $138k in holdout). Five patterns make up all of Q1 above 0.5 pp in
+all 24 runs (`runs/repeats.md`, "Where Q1 comes from"):
+
+| pattern | pp of Q1 | who gets it wrong |
+|---|---:|---|
+| h05: a loan among ClassPay payouts | 8.9 | every model, every sample |
+| b10: a $40k loan among Intuit payouts | 5.8 | every model except Haiku, every sample |
+| b08: a MetLife claim payment | 4.8 | DeepSeek without thinking, 1 sample of 3 |
+| b04: a casino that is a customer | 3.5 | 9 of 12 runs, across all four models |
+| b02: an invoice wire, not a transfer | 3.2 | DeepSeek without thinking, every sample |
+
+Haiku's 0.0 against Sonnet's 9.3 on dev is b10 plus b04. Haiku's 0.0 against 3.5 between samples is b04
+alone (0.90 in sample 0, under the bar in the others). The models are stable pattern by pattern: a new
+sample changes 1 to 8 of 192 dev patterns. Q1 moves because each large pattern is all or nothing. **So the Q1
+comparison between models rests on five cases, not on 294 patterns.** No Q1 result here can rank two models.
+
+Counted in labels, the order changes (wrong transactions in samples 0 / 1 / 2): DeepSeek with thinking
+12 / 17 / 12 on dev and 35 / 36 / 35 on holdout; Haiku 13 / 18 / 18 and 39 / 41 / 48; Sonnet 19 / 22 / 22
+and 36 / 41 / 41; DeepSeek without thinking 34 / 51 / 29 and 41 / 39 / 51. About 10 dev and 31 holdout of
+each count are the Intuit and ClassPay labels that I would now label differently (section 4); they do not
+move revenue. Neither count changes the verdict.
+
 What does separate them on the holdout:
 
 - **Cost and queue.** DeepSeek with thinking has the lowest C1 ($0.11 against Haiku's $0.41), because it

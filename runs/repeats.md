@@ -2,32 +2,32 @@
 
 Each model answers the same prompts again (samples 1 and 2; sample 0 is the committed run). The bootstrap in the gate resamples patterns; it does not see this spread.
 
-| model | split | sample | Q1 pp | Q2 pp | U2 queue/app | L1 p95 s | C1 USD/app | H2 | over-offer | patterns with a new action or label vs sample 0 |
-|---|---|---:|---:|---:|---:|---:|---:|---|---:|---:|
-| claude-haiku-5-5 | dev | 0 | 0.0 | 99.6 | 0.70 | 4.06 | 0.270 | 3/3 | $0 | 0 of 192 |
-| claude-haiku-5-5 | dev | 1 | 3.5 | 100.0 | 0.60 | 4.00 | 0.233 | 3/3 | $107 | 5 of 192 |
-| claude-haiku-5-5 | dev | 2 | 3.5 | 100.0 | 0.70 | 4.20 | 0.268 | 3/3 | $0 | 4 of 192 |
-| claude-haiku-5-5 | holdout | 0 | 8.9 | 100.0 | 0.80 | 4.70 | 0.309 | 1/1 | $14,727 | 0 of 102 |
-| claude-haiku-5-5 | holdout | 1 | 9.0 | 100.0 | 1.20 | 3.95 | 0.458 | 0/1 | $14,727 | 5 of 102 |
-| claude-haiku-5-5 | holdout | 2 | 9.0 | 97.4 | 1.20 | 4.67 | 0.456 | 1/1 | $14,727 | 4 of 102 |
-| claude-sonnet-5-5 | dev | 0 | 9.3 | 100.0 | 0.80 | 7.92 | 0.423 | 3/3 | $23,607 | 0 of 192 |
-| claude-sonnet-5-5 | dev | 1 | 9.4 | 100.0 | 0.90 | 4.81 | 0.462 | 3/3 | $23,607 | 2 of 192 |
-| claude-sonnet-5-5 | dev | 2 | 9.4 | 99.6 | 0.90 | 3.59 | 0.410 | 3/3 | $23,607 | 3 of 192 |
-| claude-sonnet-5-5 | holdout | 0 | 8.9 | 100.0 | 0.20 | 6.66 | 0.202 | 0/1 | $14,727 | 0 of 102 |
-| claude-sonnet-5-5 | holdout | 1 | 9.0 | 100.0 | 0.60 | 4.05 | 0.353 | 0/1 | $14,727 | 3 of 102 |
-| claude-sonnet-5-5 | holdout | 2 | 9.0 | 100.0 | 0.80 | 4.75 | 0.380 | 0/1 | $14,727 | 4 of 102 |
-| deepseek-flash (no thinking) | dev | 0 | 12.5 | 100.0 | 0.90 | 1.55 | 0.341 | 3/3 | $23,607 | 0 of 192 |
-| deepseek-flash (no thinking) | dev | 1 | 17.3 | 99.6 | 0.70 | 2.44 | 0.265 | 3/3 | $23,607 | 7 of 192 |
-| deepseek-flash (no thinking) | dev | 2 | 12.6 | 99.6 | 0.90 | 3.63 | 0.340 | 3/3 | $23,957 | 8 of 192 |
-| deepseek-flash (no thinking) | holdout | 0 | 9.0 | 99.4 | 0.40 | 1.71 | 0.154 | 0/1 | $14,727 | 0 of 102 |
-| deepseek-flash (no thinking) | holdout | 1 | 8.9 | 99.4 | 0.60 | 4.08 | 0.228 | 0/1 | $14,727 | 6 of 102 |
-| deepseek-flash (no thinking) | holdout | 2 | 8.9 | 100.0 | 0.40 | 3.62 | 0.153 | 0/1 | $14,727 | 7 of 102 |
-| deepseek-flash (thinking) | dev | 0 | 5.9 | 100.0 | 0.40 | 3.40 | 0.157 | 3/3 | $23,967 | 0 of 192 |
-| deepseek-flash (thinking) | dev | 1 | 9.4 | 100.0 | 0.50 | 5.73 | 0.193 | 3/3 | $23,967 | 1 of 192 |
-| deepseek-flash (thinking) | dev | 2 | 5.8 | 100.0 | 0.40 | 4.31 | 0.156 | 3/3 | $23,607 | 2 of 192 |
-| deepseek-flash (thinking) | holdout | 0 | 8.9 | 100.0 | 0.20 | 4.34 | 0.082 | 0/1 | $14,727 | 0 of 102 |
-| deepseek-flash (thinking) | holdout | 1 | 8.9 | 100.0 | 0.20 | 3.99 | 0.082 | 0/1 | $14,727 | 1 of 102 |
-| deepseek-flash (thinking) | holdout | 2 | 8.9 | 100.0 | 0.40 | 3.42 | 0.156 | 0/1 | $14,727 | 2 of 102 |
+| model | split | sample | Q1 pp | wrong labels (txns) | Q2 pp | U2 queue/app | L1 p95 s | C1 USD/app | H2 | over-offer | patterns with a new action or label vs sample 0 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|
+| claude-haiku-5-5 | dev | 0 | 0.0 | 13 | 99.6 | 0.70 | 4.06 | 0.270 | 3/3 | $0 | 0 of 192 |
+| claude-haiku-5-5 | dev | 1 | 3.5 | 18 | 100.0 | 0.60 | 4.00 | 0.233 | 3/3 | $107 | 5 of 192 |
+| claude-haiku-5-5 | dev | 2 | 3.5 | 18 | 100.0 | 0.70 | 4.20 | 0.268 | 3/3 | $0 | 4 of 192 |
+| claude-haiku-5-5 | holdout | 0 | 8.9 | 39 | 100.0 | 0.80 | 4.70 | 0.309 | 1/1 | $14,727 | 0 of 102 |
+| claude-haiku-5-5 | holdout | 1 | 9.0 | 41 | 100.0 | 1.20 | 3.95 | 0.458 | 0/1 | $14,727 | 5 of 102 |
+| claude-haiku-5-5 | holdout | 2 | 9.0 | 48 | 97.4 | 1.20 | 4.67 | 0.456 | 1/1 | $14,727 | 4 of 102 |
+| claude-sonnet-5-5 | dev | 0 | 9.3 | 19 | 100.0 | 0.80 | 7.92 | 0.423 | 3/3 | $23,607 | 0 of 192 |
+| claude-sonnet-5-5 | dev | 1 | 9.4 | 22 | 100.0 | 0.90 | 4.81 | 0.462 | 3/3 | $23,607 | 2 of 192 |
+| claude-sonnet-5-5 | dev | 2 | 9.4 | 22 | 99.6 | 0.90 | 3.59 | 0.410 | 3/3 | $23,607 | 3 of 192 |
+| claude-sonnet-5-5 | holdout | 0 | 8.9 | 36 | 100.0 | 0.20 | 6.66 | 0.202 | 0/1 | $14,727 | 0 of 102 |
+| claude-sonnet-5-5 | holdout | 1 | 9.0 | 41 | 100.0 | 0.60 | 4.05 | 0.353 | 0/1 | $14,727 | 3 of 102 |
+| claude-sonnet-5-5 | holdout | 2 | 9.0 | 41 | 100.0 | 0.80 | 4.75 | 0.380 | 0/1 | $14,727 | 4 of 102 |
+| deepseek-flash (no thinking) | dev | 0 | 12.5 | 34 | 100.0 | 0.90 | 1.55 | 0.341 | 3/3 | $23,607 | 0 of 192 |
+| deepseek-flash (no thinking) | dev | 1 | 17.3 | 51 | 99.6 | 0.70 | 2.44 | 0.265 | 3/3 | $23,607 | 7 of 192 |
+| deepseek-flash (no thinking) | dev | 2 | 12.6 | 29 | 99.6 | 0.90 | 3.63 | 0.340 | 3/3 | $23,957 | 8 of 192 |
+| deepseek-flash (no thinking) | holdout | 0 | 9.0 | 41 | 99.4 | 0.40 | 1.71 | 0.154 | 0/1 | $14,727 | 0 of 102 |
+| deepseek-flash (no thinking) | holdout | 1 | 8.9 | 39 | 99.4 | 0.60 | 4.08 | 0.228 | 0/1 | $14,727 | 6 of 102 |
+| deepseek-flash (no thinking) | holdout | 2 | 8.9 | 51 | 100.0 | 0.40 | 3.62 | 0.153 | 0/1 | $14,727 | 7 of 102 |
+| deepseek-flash (thinking) | dev | 0 | 5.9 | 12 | 100.0 | 0.40 | 3.40 | 0.157 | 3/3 | $23,967 | 0 of 192 |
+| deepseek-flash (thinking) | dev | 1 | 9.4 | 17 | 100.0 | 0.50 | 5.73 | 0.193 | 3/3 | $23,967 | 1 of 192 |
+| deepseek-flash (thinking) | dev | 2 | 5.8 | 12 | 100.0 | 0.40 | 4.31 | 0.156 | 3/3 | $23,607 | 2 of 192 |
+| deepseek-flash (thinking) | holdout | 0 | 8.9 | 35 | 100.0 | 0.20 | 4.34 | 0.082 | 0/1 | $14,727 | 0 of 102 |
+| deepseek-flash (thinking) | holdout | 1 | 8.9 | 36 | 100.0 | 0.20 | 3.99 | 0.082 | 0/1 | $14,727 | 1 of 102 |
+| deepseek-flash (thinking) | holdout | 2 | 8.9 | 35 | 100.0 | 0.40 | 3.42 | 0.156 | 0/1 | $14,727 | 2 of 102 |
 
 ## Range over the three samples
 
@@ -41,3 +41,22 @@ Each model answers the same prompts again (samples 1 and 2; sample 0 is the comm
 | deepseek-flash (no thinking) | holdout | 8.9 to 9.0 | 8.9 | 0.153 to 0.228 |
 | deepseek-flash (thinking) | dev | 5.8 to 9.4 | 7.1 | 0.156 to 0.193 |
 | deepseek-flash (thinking) | holdout | 8.9 to 8.9 | 8.9 | 0.082 to 0.156 |
+
+## Where Q1 comes from
+
+Q1 is dollars of monthly revenue on the wrong side of the revenue line, so one large pattern moves it by points. Each cell is that pattern's share of Q1 in pp, for samples 0 / 1 / 2. Patterns under 0.5 pp in every run are left out.
+
+### dev
+
+| pattern | claude-haiku-5-5 | claude-sonnet-5-5 | deepseek-flash (no thinking) | deepseek-flash (thinking) |
+|---|---:|---:|---:|---:|
+| `b02|credit|WIRE TRANSFER FROM MERIDIAN PROPERTY GRP REF # INV PAYMENT|internal_transfer|True` | 0.0 / 0.0 / 0.0 | 0.0 / 0.0 / 0.0 | 3.2 / 3.2 / 3.2 | 0.0 / 0.0 / 0.0 |
+| `b04|credit|ACH CREDIT SEMINOLE HARD ROCK CASINO AP INV #|hr_gambling|True` | 0.0 / 3.5 / 3.5 | 3.5 / 3.5 / 3.5 | 3.5 / 3.5 / 3.5 | 0.0 / 3.5 / 0.0 |
+| `b08|credit|HCCLAIMPMT METLIFE TRN # #|none|True` | 0.0 / 0.0 / 0.0 | 0.0 / 0.0 / 0.0 | 0.0 / 4.8 / 0.0 | 0.0 / 0.0 / 0.0 |
+| `b10|credit|INTUIT PYMT SOLN DEP # [large amount]|none|True` | 0.0 / 0.0 / 0.0 | 5.8 / 5.8 / 5.8 | 5.8 / 5.8 / 5.8 | 5.8 / 5.8 / 5.8 |
+
+### holdout
+
+| pattern | claude-haiku-5-5 | claude-sonnet-5-5 | deepseek-flash (no thinking) | deepseek-flash (thinking) |
+|---|---:|---:|---:|---:|
+| `h05|credit|ACH CREDIT CLASSPAY PAYOUT # [large amount]|none|True` | 8.9 / 8.9 / 8.9 | 8.9 / 8.9 / 8.9 | 8.9 / 8.9 / 8.9 | 8.9 / 8.9 / 8.9 |
