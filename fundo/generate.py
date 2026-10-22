@@ -222,8 +222,8 @@ def b04():
     for i in (15, 50, 77):
         b.credit(b.day(i), 12000, "BLUEVINE CAPITAL DRAW {n}", "not_avg_revenue", merchant="BlueVine",
                  cat="TRANSFER_IN_DEPOSIT", scenario="credit_line_draw")
-    b.credit(b.day(33), 2400, "ZELLE FROM JENNA PARK MEMO: WEDDING CATERING JPARK88@GMAIL.COM", cat="TRANSFER_IN_TRANSFER_IN_FROM_APPS",
-             scenario="customer_memo_with_email", pii="JPARK88@GMAIL.COM")
+    b.credit(b.day(33), 2400, "ZELLE FROM JENNA PARK MEMO: WEDDING CATERING JPARK88@EXAMPLE.COM", cat="TRANSFER_IN_TRANSFER_IN_FROM_APPS",
+             scenario="customer_memo_with_email", pii="JPARK88@EXAMPLE.COM")
     for d in b.every(7, 3):
         b.debit(d, b.amt(2600, 0.3), "ACH DEBIT LEVY PREMIUM FOODSERVICE INV {n}", merchant="Levy Premium Foodservice",
                 cat="FOOD_AND_DRINK_GROCERIES", scenario="supplier_named_levy")

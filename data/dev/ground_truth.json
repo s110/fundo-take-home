@@ -5853,7 +5853,7 @@
   "group": "none",
   "injection": null,
   "is_business": true,
-  "pii": "JPARK88@GMAIL.COM",
+  "pii": "JPARK88@EXAMPLE.COM",
   "scenario": "customer_memo_with_email",
   "suspicious": false
  },
