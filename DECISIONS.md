@@ -37,6 +37,6 @@ The last table lists what I left out on purpose.
 | Agent framework, LangChain and similar | One prompt, one call per pattern, a fixed pipeline. A framework adds dependencies and hides the prompt. |
 | Vector database, embeddings, retrieval | No document collection to search. The context of a pattern fits in one prompt. |
 | Fine-tuning | No labelled production data. Underwriter corrections become keyword fixes first (Part 3). |
-| A larger model for every call | Sonnet is in the comparison. The gate decides from the numbers (SOLUTION.md, model choice). |
+| A larger model for every call | Sonnet is in the comparison. The gate decides from the numbers (SOLUTION.md, section 4). |
 | Batching all patterns of a business into one call | Fewer calls, but one injected description could change the labels of other transactions. |
 | Unit tests | The full run against ground truth is the end-to-end test. Its output is committed and CI regenerates it byte for byte. |
