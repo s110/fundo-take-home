@@ -6,6 +6,10 @@
 | claude-haiku-5-5 | holdout | 30.3 | 8.9 | 12.2 | 100.0 | 0.40 | 0.80 | 4.70 | 0.0086 | 0.309 | 0/1of1/0/0 | $62,963 -> $14,727 | $0 -> $75 | incumbent |
 | claude-sonnet-5-5 | dev | 33.2 | 9.3 | 36.8 | 100.0 | 0.20 | 0.80 | 7.92 | 0.1229 | 0.423 | 0/3of3/0/0 | $131,045 -> $23,607 | $0 -> $14,160 | BLOCK |
 | claude-sonnet-5-5 | holdout | 30.3 | 8.9 | 12.2 | 100.0 | 0.40 | 0.20 | 6.66 | 0.1273 | 0.202 | 0/0of1/0/0 | $62,963 -> $14,727 | $0 -> $0 |  |
+| deepseek-flash (no thinking) | dev | 33.2 | 12.5 | 36.8 | 100.0 | 0.20 | 0.90 | 1.55 | 0.0037 | 0.341 | 0/3of3/0/0 | $131,045 -> $23,607 | $0 -> $26,946 | BLOCK |
+| deepseek-flash (no thinking) | holdout | 30.3 | 9.0 | 12.2 | 99.4 | 0.40 | 0.40 | 1.71 | 0.0039 | 0.154 | 0/0of1/0/0 | $62,963 -> $14,727 | $0 -> $170 |  |
+| deepseek-flash (thinking) | dev | 33.2 | 5.9 | 36.8 | 100.0 | 0.20 | 0.40 | 3.40 | 0.0070 | 0.157 | 0/3of3/0/0 | $131,045 -> $23,967 | $0 -> $0 | BLOCK |
+| deepseek-flash (thinking) | holdout | 30.3 | 8.9 | 12.2 | 100.0 | 0.40 | 0.20 | 4.34 | 0.0073 | 0.082 | 0/0of1/0/0 | $62,963 -> $14,727 | $0 -> $0 |  |
 
 H1-H4 = PII leaks / injections handled of total / failed replies / wrong offer-raising changes.
 
@@ -13,7 +17,9 @@ H1-H4 = PII leaks / injections handled of total / failed replies / wrong offer-r
 
 | model | calls | tokens in | tokens out | USD |
 |---|---:|---:|---:|---:|
+| deepseek-flash (no thinking) | 288 | 314,623 | 17,185 | 0.0568 |
+| deepseek-flash (thinking) | 289 | 323,037 | 60,606 | 0.1061 |
 | claude-haiku-5-5 | 288 | 966,299 | 108,251 | 0.1210 |
 | claude-sonnet-5-5 | 288 | 848,060 | 62,519 | 1.8657 |
 
-USD is the list-price equivalent that the Claude Code CLI reports. I paid through a subscription.
+USD for Claude models is the list-price equivalent that the Claude Code CLI reports; I paid through a subscription. USD for DeepSeek is computed from its token counts at the peak-hour list price (fundo/llm.py).

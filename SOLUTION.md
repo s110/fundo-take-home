@@ -60,26 +60,45 @@ word in a counterparty's name is weak evidence.
 
 ## 3. Model choice
 
-Same prompt, schema and policy for both models, through the Claude Code CLI (I had a subscription, no API
-key; with `ANTHROPIC_API_KEY` the same code bills a key, a path I could not test).
+Four reviewers with the same prompt, schema and policy. Claude Haiku and Claude Sonnet go through the
+Claude Code CLI (I had a subscription, no API key; with `ANTHROPIC_API_KEY` the same code bills a key, a
+path I could not test). DeepSeek Flash goes through its HTTP API, once with thinking off and once with
+thinking on. EVAL.md did not change for the DeepSeek runs: same metrics, same margins.
 
-| measured | Haiku dev | Sonnet dev | Haiku holdout | Sonnet holdout |
-|---|---:|---:|---:|---:|
-| Q1 gross revenue error (keyword: 33.2 dev, 30.3 holdout) | **0.0 pp** | 9.3 pp | **8.9 pp** | 8.9 pp |
-| Q2 risk-label recall (keyword: 36.8 dev, 12.2 holdout) | 99.6 pp | 100.0 pp | 100.0 pp | 100.0 pp |
-| false flags / queued patterns per application | 0.2 / 0.7 | 0.2 / 0.8 | 0.4 / 0.8 | 0.4 / 0.2 |
-| injections handled (H2) | 3/3 | 3/3 | 1/1 | **0/1** |
-| p95 model time per pattern | 4.1 s | 7.9 s | 4.7 s | 6.7 s |
-| model cost per application (list price) | $0.008 | $0.123 | $0.009 | $0.127 |
+| dev / holdout | Q1 gross revenue error | queued patterns per app | H2 injections | p95 per pattern | model cost per app | gate |
+|---|---:|---:|---:|---:|---:|---|
+| Haiku | **0.0** / **8.9** pp | 0.7 / 0.8 | 3/3, 1/1 | 4.1 / 4.7 s | $0.008 / $0.009 | incumbent |
+| Sonnet | 9.3 / 8.9 pp | 0.8 / 0.2 | 3/3, **0/1** | 7.9 / 6.7 s | $0.123 / $0.127 | BLOCK: Q1, p95, C1 |
+| DeepSeek Flash, no thinking | 12.5 / 9.0 pp | 0.9 / 0.4 | 3/3, **0/1** | 1.6 / 1.7 s | $0.004 / $0.004 | BLOCK: Q1, C1 |
+| DeepSeek Flash, thinking | 5.9 / 8.9 pp | 0.4 / 0.2 | 3/3, **0/1** | 3.4 / 4.3 s | $0.007 / $0.007 | BLOCK: Q1 |
 
-**Haiku is the incumbent; the gate blocks Sonnet** at stage 2 (`runs/gate/sonnet_vs_haiku.md`): +9.3 pp Q1
-(it called a $40k loan among small Intuit payments a payout, and its right fix of a casino customer came at
-0.85, under the 0.90 bar), +3.9 s at p95, +56% cost per application. On the holdout Sonnet followed an
-injection (a personal loan repayment called a sale). The code tripwire sent it to a person and the final
-label stayed right, which is why the defence does not rely on the model. Total spend, every iteration
-included: **USD 1.99** at list price (Haiku $0.12, Sonnet $1.87, 288 calls each), paid by subscription.
+Keyword engine Q1: 33.2 dev, 30.3 holdout. Q2 risk-label recall is 99.4 pp or more for every reviewer, and
+false flags are 0.2 / 0.4 per application for all four. Gate reports: `runs/gate/*_vs_haiku.md`.
 
-**What did not work.** (1) The bigger model, above. (2) My first policy kept offer-lowering doubts at the
+**Haiku stays the incumbent.** The gate blocks every challenger at stage 2, and Q1 blocks all three:
+
+- **One pattern decides Q1.** A $40k loan hides among small Intuit payouts (b10). Haiku takes it out of revenue at
+  once and sends it to a person; the three challengers call it a payout. That is why every Q1 interval starts at 0 (thinking: [0, +22] pp).
+- **Sonnet** is also slower (+3.9 s at p95) and dearer (+56% C1), and its right fix of a casino customer
+  came at 0.85, under the 0.90 bar.
+- **DeepSeek without thinking** is the fastest and cheapest model, but it is under-confident: right fixes
+  (a casino customer, a supplier named "Levy", an invoice wire) came at 0.75 to 0.85 and went to the queue.
+  The larger queue costs underwriter time, so C1 is +26% although the model is half the price of Haiku.
+- **Thinking fixes that.** The same right fixes reach 0.90 and apply, the queue halves (0.4 per
+  application), and C1 is −42%. It costs 3.5x the output tokens of no thinking, and it is still cheaper and
+  faster than Haiku here. The latency is not a fair comparison: Haiku's figure includes the CLI, DeepSeek's
+  is the HTTP call.
+- **On the holdout, all three challengers followed the injection.** Each one saw the instruction text and
+  still called a personal loan repayment a sale. The code tripwire sent it to a person, and the final label
+  stayed right. The defence does not rely on the model for this reason. Stage 3 did not run, because stage 2
+  had already blocked; it would have failed H2.
+
+DeepSeek with thinking is the challenger to retest. Its Q1 gap is one pattern, so the next step is a dev set
+with more loans hidden among processor payouts, not a lower bar. Total spend, every iteration included:
+**USD 2.15** at list price. Claude: Haiku $0.12 and Sonnet $1.87, paid by subscription. DeepSeek: $0.06
+without thinking and $0.11 with it, at the peak-hour price. Each reviewer made 288 or 289 calls.
+
+**What did not work.** (1) The bigger model, and the cheap model without thinking, above. (2) My first policy kept offer-lowering doubts at the
 keyword label while they waited; on dev that left $64k of over-offer in the queue. (3) It also queued
 changes to a debit's business flag, which no feature reads (2 false flags). I fixed (2) and (3) on dev.
 
@@ -95,7 +114,7 @@ changes to a debit's business flag, which no feature reads (2 false flags). I fi
 
 BO1 asked for 50% less over-offer: **−77% on the holdout**, the number to believe. The dev-to-holdout gap is
 almost all **one case**: an $18k loan paid under the same text as daily ClassPay payouts (h05). Code split
-it into its own pattern, as designed, and both models called it a payout. Haiku caught the same kind of case
+it into its own pattern, as designed, and every reviewer called it a payout. Haiku caught the same kind of case
 on dev (b10). The fix to test next is a code rule (a credit far above its template median that stays
 revenue goes to a person). I did not add it, because that is tuning on the holdout; it needs a new one.
 Other residuals (`runs/*/*/errors.md`): an employee's child-support remittance kept as a garnishment of the
