@@ -122,3 +122,22 @@ become keyword fixes, labelled cases for the gate, and per-transition precision.
   - One answer covers a whole pattern.
   - The gate reads one reply on dev and cannot compare keyword or data changes.
   - Synthetic text is cleaner than real bank text. These numbers test the mechanism, not real quality.
+
+## 8. AI tools used
+
+I built this with Claude Code (an AI coding agent, Claude Opus). It wrote most of the code, the synthetic
+data, the prompt and the documents, from my instructions. I set the requirements, the shape of the release gate
+(hard rules, non-inferiority, superiority on a hidden set), the models to compare and the budget. The models
+under test are the reviewer itself; the coding agent never labelled a transaction.
+
+How it was checked:
+
+- **Contract first.** `EVAL.md` was committed before any model reply (commit `605984a`).
+- **A second agent reviewed the code.** It found 10 bugs, fixed in pull request #1. None changed an output.
+- **I questioned the results.** Haiku's dev Q1 of 0.0 looked too good. That led to three replies per model
+  and the replay of the earlier policy, which showed the dev bias in section 4.
+
+**What is mine is the design.** I can defend each decision and its trade-off: one call per pattern,
+revenue in code, the 0.90 and 0.70 bars, the gate margins, and why Haiku stays the incumbent although that
+proves little. The rest does not need trust: `python3 run.py --offline` rebuilds every number from the
+committed model replies, and CI checks it byte for byte.
