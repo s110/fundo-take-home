@@ -46,9 +46,11 @@ class ProviderError(Exception):
 
 
 class LLM:
-    def __init__(self, provider, offline=False, timeout=180, cache_path=CACHE_PATH):
-        """cache_path: review.py passes its own file, so replies about a user's file stay out of the committed cache."""
-        self.provider, self.offline, self.timeout = provider, offline, timeout
+    def __init__(self, provider, offline=False, timeout=180, cache_path=CACHE_PATH, sample=0):
+        """cache_path: review.py passes its own file, so replies about a user's file stay out of the committed cache.
+        sample: 0 is the committed run. 1, 2, ... ask the same prompts again for a new reply, to measure how much
+        a second run of the same model changes the result."""
+        self.provider, self.offline, self.timeout, self.sample = provider, offline, timeout, sample
         self.model = PROVIDERS[provider]["model"]
         self.lock = threading.Lock()
         self.cache_path = Path(cache_path)
@@ -58,8 +60,10 @@ class LLM:
         self.cache = _CACHES[self.cache_path]
 
     def key(self, messages, schema):
-        blob = json.dumps({"provider": self.provider, "model": self.model, "schema": schema, "messages": messages},
-                          sort_keys=True)
+        d = {"provider": self.provider, "model": self.model, "schema": schema, "messages": messages}
+        if self.sample:  # sample 0 keeps the keys of the committed cache
+            d["sample"] = self.sample
+        blob = json.dumps(d, sort_keys=True)
         return hashlib.sha256(blob.encode()).hexdigest()
 
     def chat(self, messages, schema):

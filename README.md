@@ -32,6 +32,7 @@ export ANTHROPIC_API_KEY=...                          # optional; without it the
 export DEEPSEEK_API_KEY=...                           # only for the two DeepSeek providers
 python3 run.py --provider haiku --split dev           # one run; only prompts that are not in the cache are sent
 python3 run.py --provider deepseek-think --split dev
+python3 run.py --repeats --provider haiku              # samples 1 and 2 on both splits, for runs/repeats.md
 python3 run.py                                        # every run; same as --offline while the cache is complete
 ```
 
